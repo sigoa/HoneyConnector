@@ -1,7 +1,7 @@
 HoneyConnector
 ==============
 
-HoneyConnector is a Python 2.7 script to detect sniffing Tor exit relays by using bait connections and checking for reconnects with unique login credentials.
+HoneyConnector is a Python 2.7 script to detect sniffing Tor exit relays by using bait connections and checking for reconnects with unique login credentials. For example, after a new mail account "onlyOnce22@unique22.com" was created, the sniffer will log any attempts to use (i.e. steal) that address of ours by a malicious actor, e.g. a sniffing exit node.
 
 What is it exactly?
 --------
